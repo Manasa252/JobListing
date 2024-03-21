@@ -24,6 +24,9 @@ mongoose.connect("mongodb://127.0.0.1:27017/LoginDB", {
   console.error("MongoDB connection error:", error);
 });
 
+app.get("/",(req,res)=>{
+  res.json("Hello");
+})
 // Signup route
 app.post("/api/signup", async (req, res) => {
   const { name, email, password } = req.body;
