@@ -1,18 +1,17 @@
-/* Styles for the entire application */
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa; /* light gray background */
-  color: #333; /* dark gray text color */
+  background-color: #f8f9fa; 
+  color: #333;
 }
 
 .career-page {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f8f9fa; /* white background */
+  background-color: #f8f9fa; 
   border-radius: 10px;
-  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); /* subtle shadow */
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
 }
 
 .job-listings {
@@ -24,42 +23,42 @@ body {
 .job-listing {
   border: 1px solid #ccc;
   padding: 20px;
-  background-color: #f9f9f9; /* light gray background */
+  background-color: #f9f9f9; 
   border-radius: 8px;
-  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1); /* subtle shadow */
-  transition: transform 0.3s ease; /* Add transition for hover effect */
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease; 
 }
 
 .job-listing:hover {
-  transform: translateY(-5px); /* Apply a slight upward movement on hover */
+  transform: translateY(-5px); 
 }
 
 .job-listing .job-title {
-  color: #0c9ffa ; /* Blue color for job titles */
+  color: #0c9ffa ;
   margin-bottom: 10px;
 }
 
 .job-listing .job-description {
-  color: #555; /* dark gray text color */
+  color: #555;
   margin-bottom: 15px;
 }
 
 .job-listing button {
-  background-color: #0c9ffa; /* updated blue button */
-  color: #fff; /* white text color */
+  background-color: #0c9ffa; 
+  color: #fff; 
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease; /* Add transition for hover effect */
+  transition: background-color 0.3s ease; 
 }
 
 .job-listing button:hover {
-  background-color: #0c9ffa; /* darker blue on hover */
+  background-color: #0c9ffa; 
 }
 
 @media (max-width: 600px) {
   .job-listings {
-    grid-template-columns: 1fr; /* Change to single column layout on smaller screens */
+    grid-template-columns: 1fr; 
   }
 }
