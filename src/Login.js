@@ -34,8 +34,8 @@ const Login = ({ setIsLoggedIn }) => {
     }
 
     try {
-      //const url = `http://localhost:5000/api/${action.trim().toLowerCase().replace(/\s/g, '')}`;
-      const url = `https://job-listing-api-six.vercel.app/api/${action.trim().toLowerCase().replace(/\s/g, '')}`;
+      const url = `http://localhost:5000/api/${action.trim().toLowerCase().replace(/\s/g, '')}`;
+      //const url = `https://job-listing-api-six.vercel.app/api/${action.trim().toLowerCase().replace(/\s/g, '')}`;
       const response = await axios.post(url, userData);
       
       console.log(response.data); 
